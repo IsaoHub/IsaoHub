@@ -3,6 +3,6 @@ local Window = Library.CreateLib("Name", "Midnight")
 local Tab = Window:NewTab("TabName")
 local Section = Tab:NewSection("Section Name")
 Section:NewButton("ButtonText", "ButtonInfo", function()
-Paste the script
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaoHub/IsaoHub/main/IsaoHub.txt"))()
     print("Clicked")
 end)
