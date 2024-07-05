@@ -4,5 +4,6 @@ local Tab = Window:NewTab("auto-farm")
 local Section = Tab:NewSection("farm...")
 Section:NewButton("farm-level", "start-farm-level", function()
 função do botão aq
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaoHub/IsaoHub/main/IsaoHub.txt"))()
     print("Clicked")
 end)
