@@ -1,8 +1,8 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local Window = Library.CreateLib("IsaoHub", "Ocean")
 local Tab = Window:NewTab("auto-farm")
-local Section = Tab:NewSection("farm")
-Section:NewButton("farm-level", "ButtonInfo", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaoHub/IsaoHub/main/IsaoHub.txt"))()
+local Section = Tab:NewSection("farm...")
+Section:NewButton("farm-level", "start-farm-level", function()
+função do botão aq
     print("Clicked")
 end)
